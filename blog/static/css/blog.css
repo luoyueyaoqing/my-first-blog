@@ -15,8 +15,8 @@ body {
     }
 
     .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-        color: #ffffff;
-        font-size: 36pt;
+        color: #333;
+        font-size: 30pt;
         text-decoration: none;
     }
 
@@ -55,11 +55,16 @@ body {
     .post h1 a, .post h1 a:visited {
         color: #000000;
     }
+
+    .comment {
+    margin: 20px 0px 20px 20px;
+    }
+
     #id-time {
         font-size: 30px;
         background: lightyellow;
         position: absolute;
-        top: 92px;
+        top: 84px;
         right: 0;
         width: 120px;
         height: 30px;
